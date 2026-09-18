@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+data/*.sqlite3*
+artifacts/*.joblib
+data/synthetic_missions.csv
+build/
+dist/
