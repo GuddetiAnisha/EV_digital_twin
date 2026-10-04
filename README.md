@@ -1,8 +1,6 @@
 # Application-Aware Electric Vehicle Range Estimation & Digital Twin Platform
 
-A runnable, **software-only research portfolio** aligned with the user-supplied Volvo Penta EMOB thesis brief: application-specific duty cycles, operational analytics, thermal-system effects, range and remaining-time estimation, and early digital twin concepts.
 
-Independent demonstrator; not a Volvo product, sponsored project, or validated vehicle model. All operational records are synthetic. No hardware, CAN interfaces, BMS firmware, embedded electronics, or power electronics are required.
 
 ## Verified status
 
