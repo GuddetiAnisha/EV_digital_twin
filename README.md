@@ -4,6 +4,18 @@ A runnable, **software-only research portfolio** aligned with the user-supplied 
 
 Independent demonstrator; not a Volvo product, sponsored project, or validated vehicle model. All operational records are synthetic. No hardware, CAN interfaces, BMS firmware, embedded electronics, or power electronics are required.
 
+## Verified status
+
+The project has been validated locally after model training.
+
+- **21/21 automated tests passed** (`21 passed, 2 warnings in 5.63s`).
+- The two warnings were deprecation warnings from the FastAPI/Starlette testing stack and did not fail the suite.
+- Model training completed successfully.
+- The Streamlit dashboard loaded correctly with the trained Gradient Boosting model bundle.
+- A representative live scenario produced 150.5 km remaining range, 307 min operating time, 38.7 kWh mission energy demand, 19.3 kW battery power, and 75% SOC, with the mission reported as fitting within the estimated energy budget.
+
+See [RESULTS.md](RESULTS.md) for the full local validation summary.
+
 ## Quick start
 
 Use Python 3.11 or newer (tested with Python 3.14.4). Open a terminal **in this repository folder**.
